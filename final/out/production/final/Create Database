@@ -1,0 +1,2 @@
+CREATE TABLE Game( gameSeq byte not null, dateTime long not null, timeRemain int not null, id integer primary key autoincrement);
+CREATE TABLE HistoryWin(dateTime long not null, timeRemain int not null, id integer primary key autoincrement);
